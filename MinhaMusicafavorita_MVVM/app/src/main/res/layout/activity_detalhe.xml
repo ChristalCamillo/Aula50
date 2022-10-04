@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".detalhe.detalheActivity.DetalheActivity"
-    android:id="@+id/container">
+    tools:context=".view.activity.DetalheActivity">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tlDetalhesDaBanda"

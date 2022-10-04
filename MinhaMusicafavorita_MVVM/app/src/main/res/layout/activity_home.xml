@@ -7,7 +7,7 @@
     android:layout_margin="@dimen/dimen_16"
     android:orientation="vertical"
     app:flow_verticalAlign="center"
-    tools:context=".homeActivity.MainActivity">
+    tools:context=".view.activity.HomeActivity">
 
     <ImageView
         android:id="@+id/ivMistki_Home"

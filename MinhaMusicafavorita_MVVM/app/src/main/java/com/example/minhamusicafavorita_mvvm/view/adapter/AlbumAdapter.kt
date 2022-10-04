@@ -37,7 +37,7 @@ class AlbumAdapter(
         }
     }
 
-    fun atualizarListaBanda(novaLista: List<Album>) {
+    fun atualizarListaAlbum(novaLista: List<Album>) {
         listaAlbum.addAll(novaLista)
         notifyDataSetChanged()
     }

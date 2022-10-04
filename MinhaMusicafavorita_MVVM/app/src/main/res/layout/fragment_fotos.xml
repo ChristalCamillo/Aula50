@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fotosFragment"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".detalhe.fotos.fragments.FotosFragment">
+    tools:context=".view.fragment.InformacoesFragment">
     <TextView
         android:id="@+id/tvFotos"
         android:layout_width="match_parent"
@@ -23,9 +23,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="@dimen/dimen_16"
+        tools:listitem="@layout/album_item"
+        tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:spanCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvFotos"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/tvFotos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
